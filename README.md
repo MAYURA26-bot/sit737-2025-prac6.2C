@@ -26,7 +26,7 @@ The service has been containerised with Docker, deployed to a local Kubernetes c
 ## Build and Push Docker Image
 
 1. Build the image:
-- docker build -t `<user-name>/<image-name>` .
+docker build -t `<user-name>/<image-name>` .
 
 2. Push the image to Docker Hub:
 docker push `<user-name>/<image-name>`
