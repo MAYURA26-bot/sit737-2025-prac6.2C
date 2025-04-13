@@ -43,7 +43,7 @@ containers:
     image: mayura1994/calculator-microservice-6.2c
 
 Apply the changes:
-kubectl apply -f deployment.yaml
+- kubectl apply -f deployment.yaml
 
 ### Step 6: Re-Access Updated App in Browser
 kubectl port-forward service/calculator-service 8080:3000
